@@ -1,0 +1,18 @@
+{
+    "name": "ly/something",
+    "description": "搞个composer学习下",
+    "authors": [
+        {
+            "name": "tg",
+            "email": "707180869@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Something\\" : "src/What"
+        }
+    }
+}
