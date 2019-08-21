@@ -1,6 +1,7 @@
 {
     "name": "reverie/something",
     "description": "搞个composer学习下",
+    "license": "MIT",
     "authors": [
         {
             "name": "dreams",
@@ -12,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Something\\" : "src/What"
+            "Something\\" : "src/"
         }
     }
 }
